@@ -1,0 +1,52 @@
+HTML:
+1) Tags : 
+    1)hello world
+    2)heading Tags
+    3)bold and italic Tags
+    4)insert and delete Tags
+    5)bold and strong Tags
+    6)s and delete and strike Tags
+    7)em and i Tags
+    8)span and mark Tags
+    9)small and big Tags
+    10)u and insert Tags
+
+
+2)Element specific :
+    1)bdo Tags 
+    2)abbr Tags
+    3)Image Tags
+    4)audio Tags
+    5)vedio Tags
+    6)a Tags
+    7)iframe Tags
+
+
+3)Table Tags
+
+
+4)Form Tags :
+    1)input
+    2)register form
+    3)login form
+    4)datalist
+    5)select
+    6)submit
+
+
+5)List Tags :
+    1)ul tags
+    2)ol tags
+    3)dl and dt and dd
+
+
+6)Sematic Tags :
+    1)Sematic Tags
+    2)Picture Tags
+    3)figure Tags
+
+
+7)Layout Tags
+
+
+
