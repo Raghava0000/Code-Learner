@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <script>
+        movieName = "Fast and Furious"
+
+        // charAt(index):
+        console.log(movieName.charAt(6))
+        console.log(movieName.charAt(0))
+
+        // concat():
+        firstname = "raghava"
+        lastname = "shabbu"
+        console.log(firstname + " " + lastname)
+        console.log(firstname + lastname)
+
+        //includes():
+        firstname = "raghava"
+        lastname = "shabbu"
+        console.log(firstname.includes('A'))
+        console.log(firstname.includes('a'))
+        console.log(lastname.includes('b'))
+        console.log(lastname.includes('U'))
+
+        // indexOf():
+        usercity = "Hyderabad"
+        console.log(usercity.indexOf('a'))      // 5
+        console.log(usercity.indexOf('h'))      // -1 
+        console.log(usercity.indexOf('H'))      // 0
+        console.log(usercity.indexOf('d'))      // 2
+        console.log(usercity.indexOf('Z'))      // -1
+
+        // lastindexOf():
+        // usercity="Hyderabad"
+        // console.log(usercity.lastindexOf('d')) 
+        // console.log(usercity.lastindexOf('d',5))
+
+        // replace():
+        usercity = "Hyderabad"
+        console.log(usercity.replace('Hyderabad', 'VIzag'))
+
+        // replaceAll():
+        progrm = "Java is a programming language and javascript is a programming language"
+        console.log(progrm.replaceAll('a', 'A'))
+
+        // toUpper case() and toLower case():
+        progrm = "Java is a programming language and javascript is a programming language"
+        console.log(progrm.toUpperCase())
+        console.log(progrm.toLowerCase())
+
+    </script>
+</body>
+
+</html>
