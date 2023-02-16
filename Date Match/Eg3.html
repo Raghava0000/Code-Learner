@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <script>
+        let d = new Date() 
+        let l1 = d.getDay() 
+        function f1(l1){
+            if(l1==1){
+                return "Monday"
+            }else if (l1==2){
+                return "Tuesday"
+            }else if (l1==3){
+                return "Wednesday"
+            }else if (l1==4){
+                return "Thrusday"
+            }else{
+                return "Not yet known"
+            }
+        }
+        console.log(f1(1))
+        console.log(f1(0))
+    </script>
+</body>
+</html>
