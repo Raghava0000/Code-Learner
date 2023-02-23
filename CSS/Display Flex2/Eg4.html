@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            display: flex;
+        }
+
+        section, div{
+            /* border: 1px solid blue; */
+            border-radius: 10px;
+            padding:20px;
+            background-color: grey;
+        }
+
+        section div{
+            flex: 1;
+            margin: 10px;
+            
+        }
+
+        section div:first-child{
+            flex:4
+        }
+
+        section div p{
+            padding: 20px;
+            margin: 5px;
+        }
+
+        select{
+            border: none;
+            color: black;
+            font-size: large;
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <img src="logo.png" alt="logo">
+        </div>
+        <div>
+            <p>
+                <select>
+                    <option>Courses</option>
+                </select>
+            </p>
+        </div>
+        <div>
+            <p>
+                <select>
+                    <option>Programs</option>
+                </select>
+            </p>
+        </div>
+        <div>
+            <p>
+                <select>
+                    <option>Carrier Support</option>
+                </select>
+            </p>
+        </div>
+    </section>
+    
+</body>
+</html>

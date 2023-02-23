@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* attributevalestartswith */
+        [href^="https"]{
+            border: 5px solid salmon;
+        }
+        [target^="_bl"]{
+            border: 5px solid skyblue;
+        }
+        [alt^="ja"]{
+            border: 5px solid skyblue;
+        }
+        [name^="use"]{
+            border: 5px solid blue;
+        }
+        [width^="5"]{
+            border: 5px solid rebeccapurple;
+        }
+        [preload^="au"]{
+            border: 5px solid red;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="https://www.google.com" target="_blank">Google</a>
+    <audio controls preload="auto" src="../../HTML/ElementSpecific/airtel.mp3"></audio>
+    <video controls width="500px" height="250px">
+        <source src="../../HTML/ElementSpecific/zozo.mp4" type="video/mp4">
+    </video>
+    <img src="../../HTML/MoreImages/javaone.png" alt="javalogo"><br><br><br>
+    <input type="text" name="username">
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       section, div{
+        border: 2px solid blue;
+        padding:5px;
+        margin:5px;
+        display: flex;
+       }
+
+       section div{
+        flex:1;
+        margin:15px;
+        padding:150px;
+       }
+
+       .container > div{
+        height: 20px;
+        padding: 10px;
+       }
+
+       .container > div:first-child{
+        flex: 4;
+       }
+
+       img{
+        width: 300px;
+        padding: 10px;
+       }
+
+       .imageContainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+       }
+
+       .container > div{
+        padding: 30px;
+       }
+       .logoContainer{
+        border: 2px solid blue;
+
+       }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="logoContainer">
+            <img src="logo.png" alt="logo" height="60px">
+        </div>
+        <div>
+            <select name="" id="">
+                <optgroup label="dropdown01">
+                    <option value="Dropdown01">Dropdown01</option>
+                    <option value="Dropdown02">Dropdown02</option>
+                    <option value="Dropdown03">Dropdown03</option>
+                    <option value="Dropdown04">Dropdown04</option>
+                    <option value="Dropdown05">Dropdown04</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <select name="" id="">
+                <optgroup label="dropdown01">
+                    <option value="Dropdown01">Dropdown01</option>
+                    <option value="Dropdown02">Dropdown02</option>
+                    <option value="Dropdown03">Dropdown03</option>
+                    <option value="Dropdown04">Dropdown04</option>
+                    <option value="Dropdown05">Dropdown04</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <select name="" id="">
+                <optgroup label="dropdown01">
+                    <option value="Dropdown01">Dropdown01</option>
+                    <option value="Dropdown02">Dropdown02</option>
+                    <option value="Dropdown03">Dropdown03</option>
+                    <option value="Dropdown04">Dropdown04</option>
+                    <option value="Dropdown05">Dropdown04</option>
+                </optgroup>
+            </select>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <img src="df1.jpeg" alt="">
+       
+            <img src="df2.jpeg" alt="">
+       
+            <img src="df3.jpeg" alt="">
+        </div>
+    </section>
+
+    <section class="imageContainer">
+        <div><img src="df4.jpeg" alt=""></div>
+        <div><img src="df5.jpeg" alt=""></div>
+        <div><img src="df6.jpeg" alt=""></div>
+        <div><img src="df6.jpeg" alt=""></div>
+    </section>
+
+    <section>
+        <div>R4C1</div>
+        <div>R4C2</div>
+        <div>R4C3</div>
+    </section>
+</body>
+</html>
